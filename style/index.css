@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    text-align: justify;
+}
+
+.gap{
+    padding: 2rem;
+}
+
+
+/* nav */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 200;
+    background-color: rgb(70, 206, 181);
+    color: #fff;
+    font-size: 20px;
+    padding: 1rem;
+    width: calc(100vw - 2rem);
+    box-shadow: 1px 1px 15px -2px #000;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+}
+
+.link > a{
+    padding: 0rem .5rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 200ms ease-in-out;
+}
+
+.link > a:hover{
+    font-weight: bold;
+    transition: 200ms ease-in-out;
+}
+
+/* media */
+
+.media{
+    position: relative;
+}
+
+.h1{
+    position: absolute;
+    background-color: #000000a5;
+    padding: 100px 1rem 50px 1rem;
+    color: #fff;
+    top: 0;
+    right: 0;
+    font-size: 100px;
+    z-index: 50;
+    text-align: right;
+    overflow-y: hidden;
+}
+
+.nasa{
+    font-size: 180px;
+}
+
+.object{
+    font-size: 165px;
+}
+
+.hazard{
+    font-size: 65px;
+}
+
+.tag{
+    position: absolute;
+    background-color: rgb(70, 206, 181);
+    color: #fff;
+    top: 130px;
+    padding: 10px 20px;
+    z-index: 50;
+    font-size: 20px;
+    width: 200px;
+    box-shadow: 1px 1px 20px -5px rgb(4, 4, 4);
+}
+
+.tagsHeader{
+    left: 100px;
+}
+
+.toolsHeader{
+    left: 400px;
+}
+
+.contextHeader{
+    top: 500px;
+    left: 100px;
+    width: 500px;
+}
+
+.sourceHeader{
+    top: 370px;
+    left: 100px;
+    width: 500px;
+}
+
+.fixedInfos{
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    top: 185px;
+    padding: 10px 20px;
+    z-index: 50;
+    font-size: 20px;
+    width: 200px;
+    line-height: 1.7;
+    box-shadow: 1px 1px 20px -5px rgb(4, 4, 4);
+}
+
+.tags{
+    left: 100px;
+}
+
+.tools{
+    left: 400px;
+}
+
+.context{
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    top: 555px;
+    left: 100px;
+    padding: 10px 20px;
+    z-index: 50;
+    font-size: 20px;
+    width: 500px;
+    line-height: 1.5;
+}
+
+.sourceInfo{
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    top: 425px;
+    left: 100px;
+    padding: 10px 20px;
+    z-index: 50;
+    font-size: 20px;
+    width: 500px;
+}
+
+.sourceLink{
+    color: #000;
+}
+
+.sourceInfo:hover .sourceLink{
+    color: rgb(0, 183, 255);
+}
+
+.filler{
+    background-color: #fff;
+    width: 100vw;
+    height: 50px;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 50;
+    box-shadow: 1px 1px 10px 5px #000;
+}
+
+/* body */
+
+.body{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+}
+
+.gapBig{
+    padding: 30px;
+}
+
+.content{
+    line-height: 1.5;
+}
+
+/* footer*/ 
+
+footer{
+    padding: .5rem;
+    margin-top: 2rem;
+    background-color: rgb(28, 29, 29);
+    color: #fff;
+    font-size: 15px;
+    width: 100vw;
+    text-align: center;
+}
+
+.footLink{
+    color:rgb(0, 183, 255)
+}
