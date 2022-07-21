@@ -1,0 +1,125 @@
+@media screen and (max-width: 1400px) {
+
+    *{
+        font-size: .9rem;
+    }
+    
+    .gap{
+        padding: .7rem;
+    }
+    
+    
+    /* nav */
+    
+    .nav{
+        font-size: .9rem;
+    }
+    
+    .link > a{
+        font-size: .9rem;
+    }
+    
+    /* media */
+    
+    .media{
+        width: 100%;
+    }
+    
+    .h1{
+        position: static;
+        display: none;
+    }
+
+    h2{
+        background-color: rgb(70, 206, 181);
+        color: #fff;
+        padding: 10px 20px;
+    }
+
+    .tabH1{
+        background-color: rgb(7, 7, 7);
+        color: #fff;
+        display: block;
+        font-size: 30px;
+        padding: .5rem;
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+    
+    .nasa{
+        font-size: 30px;
+    }
+    
+    .object{
+        font-size: 30px;
+    }
+    
+    .hazard{
+        font-size: 30px;
+    }
+    
+    .tag{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        position: static;
+        font-size: .9rem;
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        font-weight: bold;
+        box-shadow: 0px 0px 0px 0px rgb(4, 4, 4);
+        text-decoration: underline;
+    }
+
+    .contextHeader{
+        position: static;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .sourceHeader{
+        position: static;
+    }
+    
+    .fixedInfos{
+        position: static;
+        font-size: .9rem;
+        box-shadow: 0px 0px 0px 0px rgb(4, 4, 4);
+    }
+    
+    .context{
+        position: static;
+        font-size: .9rem;
+    }
+    
+    .sourceInfo{
+        position: static;
+        font-size: .9rem;
+    }
+
+    .infTab{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .sourceInfo:hover .sourceLink{
+        color: rgb(5, 158, 219);
+    }
+    
+    .filler{
+        display: none;
+    }
+    
+    /* body */
+    
+    .gapBig{
+        padding: 20px;
+    }
+    
+    /* footer*/ 
+    
+    footer{
+        font-size: .9rem;
+    }
+
+}

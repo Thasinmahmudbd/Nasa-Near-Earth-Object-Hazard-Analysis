@@ -65,6 +65,10 @@
     overflow-y: hidden;
 }
 
+.tabH1{
+    display: none;
+}
+
 .nasa{
     font-size: 180px;
 }
